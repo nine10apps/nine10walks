@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nine10 Walks</title>
+  <meta name="description" content="Nine10 Walks is a walking, step rewards and friends leaderboard app." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="brand"><span class="mark">🚶</span><span>nine<span>10</span> walks</span></div>
+    <a href="#download" class="button small">Download</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Walk more. Earn more. Explore more.</p>
+        <h1>Turn every walk into progress with Nine10 Walks.</h1>
+        <p class="lead">Track your steps, connect with Apple Health, collect coins, climb the leaderboard and discover your city with a live walking map.</p>
+        <div class="actions">
+          <a class="button" href="#download">Get the app</a>
+          <a class="button ghost" href="#features">See features</a>
+        </div>
+      </div>
+      <div class="phone-card"><img src="assets/home.png" alt="Nine10 Walks home screen showing step progress and rewards" /></div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>Built for daily walking motivation</h2>
+      <div class="grid">
+        <article><span>🎯</span><h3>Daily goals</h3><p>Set your step target and track your progress throughout the day.</p></article>
+        <article><span>🪙</span><h3>Step rewards</h3><p>Earn coins as you hit walking milestones and keep your streak going.</p></article>
+        <article><span>🗺️</span><h3>Coin map</h3><p>Use the map to walk, explore and collect as you move around.</p></article>
+        <article><span>🏆</span><h3>Leaderboards</h3><p>Compete with friends and claim weekly prizes for top positions.</p></article>
+      </div>
+    </section>
+
+    <section class="showcase">
+      <div><h2>Track activity in real time</h2><p>Follow distance, time, speed and steps during each walking session, with a clean dark interface designed for outdoor use.</p></div>
+      <img src="assets/activity.png" alt="Activity screen with map and live walking stats" />
+    </section>
+
+    <section class="screens">
+      <h2>App previews</h2>
+      <div class="screen-row">
+        <img src="assets/rewards.png" alt="Rewards and step milestone screen" />
+        <img src="assets/map.png" alt="Coin map screen in London" />
+        <img src="assets/friends.png" alt="Friends leaderboard screen" />
+      </div>
+    </section>
+
+    <section id="download" class="cta">
+      <h2>Ready to start walking?</h2>
+      <p>Download Nine10 Walks and make every step count.</p>
+      <div class="store-buttons">
+        <a href="#">App Store</a>
+        <a href="#">Google Play</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Nine10 Walks. All rights reserved.</p>
+    <p><a href="privacy.html">Privacy Policy</a> · <a href="app-ads.txt">app-ads.txt</a></p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
